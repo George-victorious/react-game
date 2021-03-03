@@ -1,0 +1,52 @@
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    min-width: 490px;
+    margin: 0 auto;
+}
+
+.header__item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.header__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item {
+    margin: 5px;
+}
+
+.header__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__item a:active, a:hover {
+    color: black;
+}
+
+.header button {
+    width: 75px;
+    height: 100%;
+    padding: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.header button:hover{
+    background-color:#4CAF50;
+}
+
+.header button:active{
+    background-color: #2E7D32;
+}

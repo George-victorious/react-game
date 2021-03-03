@@ -1,0 +1,27 @@
+.menuButtons button{
+    padding: 5px;
+    width: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.menuButtons button:hover{
+    background-color:#4CAF50;
+}
+
+.menuButtons button:active{
+    background-color: #2E7D32;
+}
+
+.close button:hover{
+    background-color:#f44336;
+}
+
+.close button:active{
+    background-color: #f3291a;
+}
