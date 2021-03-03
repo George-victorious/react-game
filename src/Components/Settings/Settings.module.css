@@ -1,0 +1,57 @@
+.settings {
+  width: 490px;
+  margin: 0 auto;
+}
+
+.settingValue button {
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.settingName{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.setKey {
+  font-size: 1.2em;
+}
+
+.settingValueKeys {
+  display: flex;
+  justify-content: center;
+}
+
+.element{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cccccc;
+}
+
+.settingValueKeys button {
+  padding: 5px;
+  height: 35px;
+  min-width: 35px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.changeInput {
+  height: 50px;
+  width: 50px;
+}

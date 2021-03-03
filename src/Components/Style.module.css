@@ -1,0 +1,114 @@
+.dark_main {
+    background-color: #656565;
+    border-color: #939393;
+    color: #cccccc;
+    transition: .2s;
+}
+
+.light_main {
+    background-color: #F2DDB3;
+    border-color: #BFAF8E;
+    color: #756035;
+    transition: .2s;
+}
+
+.light_setKeyBlock {
+    border: 2px solid #BFAF8E;
+    background-color: #867043;/*сменить*/
+    transition: .2s;
+}
+
+
+
+
+.dark_setKeyBlock {
+    border: 2px solid #939393;
+    background-color: #383838;
+    transition: .2s;
+}
+
+.dark_topNewGameButton {
+    background-color: #656565;
+    border-color: #939393;
+    color: #cccccc;
+    transition: .2s;
+}
+
+.dark_header_bg {
+    border: 2px solid #939393;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    background-color: #212121;
+}
+
+.dark_opend {
+    outline-color: #607D8B;
+    background-color: #cccccc;
+    transition: .2s;
+}
+
+.dark_notOpend {
+    color: transparent;
+    outline-color: black;
+    background-color: #939393;
+    transition: .2s;
+}
+
+.dark_hovered {
+    background-color: cornflowerblue;
+}
+
+.dark_newGameButtons {
+    background-color: #656565;
+    border-color: #939393;
+    color: #cccccc;
+    transition: .2s;
+}
+
+
+
+
+.light_header_bg {
+    border: 2px solid #BFAF8E;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    background-color: #756035;
+}
+
+.light_topNewGameButton {
+    background-color: #F2DDB3;
+    border-color: #BFAF8E;
+    color: #756035;
+    transition: .2s;
+}
+
+.light_opend {
+    outline-color: #607D8B;
+    background-color: #F2D3B3;
+    transition: .2s;
+}
+
+.light_notOpend {
+    color: transparent;
+    outline-color: black;
+    background-color: #BFAF8E;
+    transition: .2s;
+}
+
+.light_hovered {
+    background-color: #F4A70C;
+}
+
+.light_newGameButtons {
+    background-color: #F2DDB3;
+    border-color: #BFAF8E;
+    color: #756035;
+    transition: .2s;
+}
+
+.checked {
+    background-color: #4CAF50;
+    transition: .2s;
+}

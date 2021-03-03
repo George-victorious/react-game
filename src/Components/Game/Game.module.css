@@ -1,0 +1,164 @@
+.mineSweaper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    min-width: 490px;
+}
+
+.topButtonsAndPlane {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.mineSweaperItems {
+    margin: 5px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.topBarItem {
+    margin: auto;
+}
+
+.topNewGameButton {
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.topNewGameButton img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gamePlane {
+    margin: 5px;
+}
+
+.gameElement {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline-width: 1px;
+    outline-style: solid;
+    padding: 1px;
+    font-family: "Arial Black";
+    font-size: medium;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+button img {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.bombImg{
+    animation: transformbombIn 0.2s;
+}
+
+@keyframes transformbombIn {
+    from {
+        opacity: 0;
+        transform: scale(2);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.flagImg{
+    animation: transformflagIn 0.2s;
+}
+
+@keyframes transformflagIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.redBG {
+    background-color: red;
+}
+
+.newGameButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newGameButtons button {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.newGameButtons button:hover {
+    background-color: #4CAF50;
+}
+
+.newGameButtons button:active {
+    background-color: #2E7D32;
+}
+
+.red1 {
+    color: red;
+}
+
+.green2 {
+    color: green;
+}
+
+.blue3 {
+    color: blue;
+}
+
+.indigo4 {
+    color: indigo;
+}
+
+.greenYellow5 {
+    color: greenyellow;
+}
+
+.darkBlue6 {
+    color: darkblue;
+}
+
+.fuchsia7 {
+    color: fuchsia;
+}
+
+.brown8 {
+    color: brown;
+}
+
+.gold9 {
+    color: gold;
+}
+
+.zero {
+    color: transparent;
+}

@@ -1,0 +1,35 @@
+.lastGameBox{
+    margin: 5px;
+}
+
+.allScore {
+    padding: 15px;
+}
+
+.gameValue{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.newGameButtons button{
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.newGameButtons button:hover{
+    background-color:#4CAF50;
+}
+
+.newGameButtons button:active{
+    background-color: #2E7D32;
+}
+
+.toMenu{
+    margin-bottom: 20px;
+}
